@@ -1,0 +1,8 @@
+.button {
+  @apply border-none text-white px-16 py-2 rounded-full min-w-16 transition-all hover:shadow-md active:shadow-lg w-full md:w-auto;
+  background-color: var(--primary);
+
+  &.disabled {
+    @apply bg-gray-400 cursor-not-allowed pointer-events-none;
+  }
+}

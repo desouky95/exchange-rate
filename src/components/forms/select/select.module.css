@@ -1,0 +1,36 @@
+.container {
+  @apply relative w-full md:w-auto;
+}
+
+.placeholder {
+  @apply rounded-md border-gray-300 p-3 border border-solid bg-white shadow-sm  focus:shadow-lg min-h-12 min-w-52 transition-all flex w-full md:w-auto;
+  &.open {
+    @apply rounded-es-none rounded-ee-none;
+  }
+}
+
+.scrollArea {
+  @apply shadow-sm absolute max-h-[0] min-h-[0] overflow-auto h-auto rounded-md border-0 border-gray-300 border-t-0 bg-white w-full rounded-ss-none rounded-se-none transition-[max-height];
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  &.open {
+    @apply min-h-[10vh] max-h-[var(--max-height)] h-auto border border-t-0 z-50;
+  }
+}
+.list {
+  @apply py-3;
+}
+
+.item {
+  @apply px-3 hover:bg-gray-200 cursor-pointer;
+  &.selected {
+    @apply bg-gray-200;
+  }
+}
+
+.icon {
+  @apply min-w-5 transition-all;
+  &.open {
+    @apply rotate-180;
+  }
+}

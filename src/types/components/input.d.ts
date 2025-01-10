@@ -1,0 +1,1 @@
+declare type InputProps = import('react').InputHTMLAttributes<HTMLInputElement>

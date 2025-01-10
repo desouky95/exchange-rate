@@ -1,0 +1,1 @@
+declare type ButtonProps = import('react').ButtonHTMLAttributes<HTMLButtonElement>;

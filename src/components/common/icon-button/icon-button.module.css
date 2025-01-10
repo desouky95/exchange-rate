@@ -1,0 +1,13 @@
+.iconButton {
+  @apply aspect-square rounded-full flex items-center justify-center outline outline-gray-200 bg-white shadow-sm transition-all hover:bg-gray-50 hover:shadow-md active:shadow-lg;
+  aspect-ratio: 1 / 1;
+}
+.sm {
+  width: 32px;
+}
+.md {
+  width: 40px;
+}
+.lg {
+  width: 48px;
+}

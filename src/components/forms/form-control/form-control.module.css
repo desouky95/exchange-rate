@@ -1,0 +1,9 @@
+.formControl {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.label { 
+    @apply font-bold mb-1;
+}
